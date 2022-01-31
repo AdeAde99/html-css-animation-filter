@@ -52,6 +52,7 @@
 
 
 
+
 .ex-3-square {
     transition:border-radius 5s;
 }
@@ -59,3 +60,33 @@
 .ex-3-square:hover {
     border-radius: 50%;
 }
+
+
+
+
+.ex-4-square {
+    transition: background-color 5s;
+}
+
+.ex-4-square:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+/*
+.ex-5-square {
+    transition: width height 5s;
+}
+
+.ex-5-square:hover {
+    width: 150%;
+    height: 150%;
+}
+
+.ex-5-square:active {
+    width: 50%;
+    height: 50%;
+}
+*/
+
