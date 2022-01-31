@@ -142,3 +142,23 @@
     height: auto;
     
 }
+
+
+
+
+
+.ex-10-icon {
+    animation-name: ruotante;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes ruotante {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
+  
