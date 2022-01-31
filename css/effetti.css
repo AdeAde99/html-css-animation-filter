@@ -76,7 +76,7 @@
 
 
 .ex-5-square {
-    transition: width height 5s;
+    transition: width 5s, height 5s;
     
 }
 
@@ -157,8 +157,17 @@
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
-  }
+}
+
+
+
+
+  
+
+
+
   
