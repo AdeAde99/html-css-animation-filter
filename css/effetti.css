@@ -76,8 +76,8 @@
 
 
 .ex-5-square {
-    transition: width;
-    transition: height;
+    transition: width height 5s;
+    
 }
 
 .ex-5-square:hover {
@@ -106,7 +106,19 @@
 }
 
 .ex-7-img:hover {
-    filter: grayscale(100%);
-    filter: sepia(0.5);
+    filter: grayscale(100%) blur(2.4px);
+}
+
+
+
+
+.ex-8-img {
+    transition: filter border-radius;
+    transition-duration: 5s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(75%) saturate(2.5);
+    border-radius: 20%;
 }
 
