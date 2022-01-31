@@ -210,6 +210,70 @@
 
 
 
+.ex-13-top-white {
+    animation-name: spostaSopra;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes spostaSopra {
+
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(150px, 0);
+    }
+
+    50% {
+        transform: translate(150px, 70px);
+    }
+
+    75% {
+        transform: translate(-40px, 70px);
+    }
+
+    100% {
+        transform: translate(-30px, 0px);
+    }
+}
+
+.ex-13-bottom-white {
+    animation-name: spostaSotto;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes spostaSotto {
+
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-110px, 0);
+    }
+
+    50% {
+        transform: translate(-110px, -70px);
+    }
+
+    75% {
+        transform: translate(90px, -70px);
+    }
+
+    100% {
+        transform: translate(90px, 0px);
+    }
+}
+
+
+
+
+
+
+
   
 
 
