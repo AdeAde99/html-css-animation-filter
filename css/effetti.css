@@ -99,3 +99,14 @@
 }
 
 
+
+
+.ex-7-img {
+    transition: filter 5s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    filter: sepia(0.5);
+}
+
