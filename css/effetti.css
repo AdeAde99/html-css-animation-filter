@@ -3,5 +3,48 @@
 }
 
 .ex-1-square:hover {
+    transition: background-color 5s;
     background-color: red;
+}
+
+
+/*
+.ex-2-square:active {
+    animation-name: allungamento;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes allungamento {
+    0% {
+        width: 50px;
+    }
+
+    25% {
+        width: calc(25% - 5px);
+    }
+
+    50% {
+        width: calc(50% - 5px);
+    }
+
+    75% {
+        width: calc(75% - 5px);
+    }
+
+    100% {
+        width: calc(100% - 5px);
+    }
+}
+*/
+
+.ex-2-square {
+    transition:width 5s;
+    width: 100px;
+}
+
+.ex-2-square:active {
+    transition:width 5s;
+    width: 100%;
 }
